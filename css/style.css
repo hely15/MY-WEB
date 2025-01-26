@@ -1,0 +1,92 @@
+@import url('../css/variable.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 1440px;
+    height: 1024px;
+    
+}
+
+html {
+    background-image: url('../storage/img/FondoPlaneta.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin: auto;
+    background-color:rgba(7, 25, 23, 1);
+    height: auto;
+}
+
+div{
+    #Text{
+        color: #ffffff;
+    }
+    margin-left: 287px;
+    margin-top: -688px;
+    .Linus{
+        width: 159px;
+        height: 34px;
+        font-size: 28px;
+        font-family: 'montserratBold', sans-serif;
+    }
+    .Bringing{
+        width: 626px;
+        height: 196px;
+        font-size: 80px;
+        margin-top: 17px;
+        font-family: 'montserratBold', sans-serif;
+    }
+    .Parrafo{
+        width: 379px;
+        height: 196px;
+        font-size: 20px;
+        margin-top: 17px;
+        font-family: 'montserratMedium', sans-serif;
+    }
+}
+
+ 
+
+header nav a.work {
+    position: absolute;
+    width: 48px;
+    height: 21px;
+    top: 17px;
+    left: 1250px;
+    font-size: 17px;
+    font-family: 'montserratBold', sans-serif;
+    color: #ffffff; 
+}
+
+header nav a.about {
+    position: absolute;
+    width: 48px;
+    height: 21px;
+    top: 17px;
+    left: 1350px;
+    font-size: 17px;
+    font-family: 'montserratBold', sans-serif;
+    color: #ffffff; 
+}
+
+header nav a.blog {
+    position: absolute;
+    width: 48px;
+    height: 21px;
+    top: 17px;
+    left: 1450px;
+    font-size: 17px;
+    font-family: 'montserratBold', sans-serif;
+    
+    color: #ffffff; 
+}
+
+img {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 5px;
+    left: 238px;
+}
