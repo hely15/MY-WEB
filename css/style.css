@@ -4,48 +4,43 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    width: 1440px;
-    height: 1024px;
-    
 }
 
-html {
-    background-image: url('../storage/img/FondoPlaneta.jpg');
+.section__home {
+    background-image: linear-gradient(#376e4072, #071917d5), url("../storage/img/FondoPlaneta.jpg");
+    background-size: cover;
+    background-position: center 20%;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
-    margin: auto;
-    background-color:rgba(7, 25, 23, 1);
-    height: auto;
+    height: 100svh;
+
+
+}
+.article__home {
+    width: 626px;
+    height: 360px;
+    position: relative;
+    left: 22svw;
+    top: 36svh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: var(--color-1);
 }
 
-div{
-    #Text{
-        color: #ffffff;
-    }
-    margin-left: 287px;
-    margin-top: -688px;
-    .Linus{
-        width: 159px;
-        height: 34px;
-        font-size: 28px;
-        font-family: 'montserratBold', sans-serif;
-    }
-    .Bringing{
-        width: 626px;
-        height: 196px;
-        font-size: 80px;
-        margin-top: 17px;
-        font-family: 'montserratBold', sans-serif;
-    }
-    .Parrafo{
-        width: 379px;
-        height: 196px;
-        font-size: 20px;
-        margin-top: 17px;
-        font-family: 'montserratMedium', sans-serif;
-    }
+.article__home span {
+    font-size: 28px;
+    font-family: "Montserrat-Medium";
 }
+.article__home h1{
+    font-size: 75px;
+    font-family: "Montserrat-Medium";
+}
+
+.article__home p {
+    width: 340px;
+    font-family: "Montserrat-SemiBold";
+}
+
 
  
 
@@ -83,10 +78,10 @@ header nav a.blog {
     color: #ffffff; 
 }
 
-img {
+.logo{
     position: absolute;
     width: 45px;
     height: 45px;
     top: 5px;
-    left: 238px;
+    left: 5px;
 }
