@@ -8,10 +8,11 @@
 
 .section__home {
     background-image: linear-gradient(#376e4072, #071917d5), url("../storage/img/FondoPlaneta.jpg");
+    background-image: linear-gradient(var(--color-2), var(--color-3)100%), var(--banner-1);
     background-size: cover;
-    background-position: center 20%;
+    background-position: center ;
     background-repeat: no-repeat;
-    height: 100svh;
+    height: 140svh;
 
 
 }
@@ -20,7 +21,7 @@
     height: 360px;
     position: relative;
     left: 22svw;
-    top: 36svh;
+    top: 47svh;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -85,3 +86,12 @@ header nav a.blog {
     top: 5px;
     left: 5px;
 }
+
+
+.section__icon{
+    background-color: var(--color-3);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+

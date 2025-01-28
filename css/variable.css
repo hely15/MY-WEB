@@ -1,5 +1,8 @@
 :root{
-    --color-1: #FFFFFF;
+    --color-1: #ffffff ;
+    --color-2: #376e4072;
+    --color-3:#071917; 
+    --banner-1: url(../storage/img/FondoPlaneta.jpg);
 }
 
 @font-face {
