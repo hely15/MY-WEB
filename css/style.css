@@ -165,3 +165,36 @@
 
 }
 
+
+
+.sectionImg1{
+    background-color: var(--color-3);
+    padding-top: 60px;
+    width: 100svw;
+    height: 100svh;
+
+    img{
+        background-color: var(--color-3);
+        position: absolute;
+        justify-content: center;    
+        padding-left: 23px;
+        padding-right: 23px;
+        width: 99svw;
+    }
+
+    h1{
+        color: var(--color-1);
+        font-size: 55px;
+        position: absolute;
+        padding-left: 13svh;
+        padding-top: 55svw;
+        
+    }
+
+}
+
+@media (max-width: 576px){
+    
+}
+
+
