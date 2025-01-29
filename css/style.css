@@ -44,6 +44,7 @@
     background-position: center ;
     background-repeat: no-repeat;
     height: 140svh;
+    padding: 0;
 
 
 }
@@ -168,26 +169,31 @@
 
 
 .sectionImg1{
+    display: flex;
     background-color: var(--color-3);
-    padding-top: 60px;
-    width: 100svw;
-    height: 100svh;
+    padding-top: 32px;
+    flex-direction: column;
+    
 
     img{
         background-color: var(--color-3);
-        position: absolute;
         justify-content: center;    
-        padding-left: 23px;
-        padding-right: 23px;
+        padding-left: 2svw;
+        padding-right: 2svw;
         width: 99svw;
+        
+    }
+    .div_titel1{
+        position: absolute;
+        padding-left: 16svh;
+        padding-top: 55svw;
+
     }
 
     h1{
         color: var(--color-1);
-        font-size: 55px;
-        position: absolute;
-        padding-left: 13svh;
-        padding-top: 55svw;
+        font-size: 6svh;
+        padding-top: 0svw;
         
     }
 
