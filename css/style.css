@@ -345,3 +345,127 @@
         padding-left: 10svw;
     }
 }
+
+.titleCarrusel{
+    h1{
+        background-color: var(--color-3);
+        color: var(--color-1);
+        font-size: 40px;
+        font-family: "Montserrat-SemiBold";   
+    }
+
+    
+}
+
+.carousel {
+    background-color: var(--color-3);
+    display: flex;
+    flex-direction: row;
+    height: 68svh;
+    overflow-x: scroll;
+    
+    
+    & > .carousel-item {
+      flex: 1;
+      flex-grow: 1;
+      min-width: 20svw;
+      background-color: #145E2A;
+      margin: 2svh;
+      border-radius: 35px;
+      
+    }   
+
+    .carousel-item {
+        padding-left: 1svw;
+        font-size: 1svw;
+        font-family: "Montserrat-SemiBold";
+    }
+
+    img{
+        padding-top: 1svw;
+        width: 18svw;
+        height: 26svh;
+        border-radius: 30px;
+
+    }
+
+    p{
+        padding-top: 2svh;
+        padding-block-end: 2svh;
+    }
+
+    .div__a{
+        height: 5svh;
+        width: 8svw;
+        background-color: #D9D9D9;
+        border-radius: 24px;
+        text-align: center;
+        padding-top: 0.5svw;
+
+        
+        
+    }
+
+    div a{
+        padding-top: 2svh;
+        color: black;
+        font-family: "Montserrat-SemiBold";
+        font-size: 1svw;
+        text-decoration: none;
+        
+    }
+  }
+
+
+  @media (max-width: 576px) {
+    .carousel{
+        height: 45svh;
+        & > .carousel-item{
+            margin: 1svh;
+            border-radius: 35px;
+            width: 45svw;
+            min-width: 50svw;
+        }
+
+        .carousel-item {
+            padding-left: 1svw;
+            font-size: 2.5svw;
+            font-family: "Montserrat-SemiBold";
+        }
+    
+        .div__a{
+        height: 5svh;
+        width: 8svw;
+        border-radius: 24px;
+        text-align: center;
+        padding-top: 0.5svw;
+        }
+
+        div .a{
+            padding-top: 2svh;
+            color: black;
+            font-family: "Montserrat-SemiBold";
+            font-size: 1svw;
+            text-decoration: none;
+            
+        }
+
+    }
+
+    #imgcarru{
+        width: 48svw;
+        height: 22svh;
+        
+    }
+
+    p{
+        padding-top: 1svh;
+        padding-block-end: 1svh;
+    }
+
+
+
+
+
+}
+  
