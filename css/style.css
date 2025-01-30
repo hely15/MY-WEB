@@ -286,3 +286,62 @@
         padding-left: 10svw;
     }
 }
+
+.sectionImg3{
+    display: flex;
+    background-color: var(--color-3);
+    padding-top: 28px;
+    flex-direction: column;
+    
+
+    img{
+        background-color: var(--color-3);
+        justify-content: center;    
+        padding-left: 2svw;
+        padding-right: 2svw;
+        width: 99svw;
+        
+    }
+
+    h1{
+        color: var(--color-1);
+        position: absolute;
+        padding-left: 20svh;
+        padding-top: 48svw;
+        font-size: 55px;
+        font-family: "Montserrat-SemiBold";
+        
+    }
+
+}
+
+
+@media (max-width: 960px) {
+    .sectionImg3 {
+        padding-top: 24px;
+    }
+
+    .sectionImg3 img {
+        width: 100%;
+        padding-left: 1svw;
+        padding-right: 1svw;
+    }
+
+    .sectionImg3 h1 {
+        font-size: 5svh;
+    }
+}
+
+@media (max-width: 576px) {
+    .sectionImg3 img {
+        width: 100%;
+        padding-left: 3svw;
+        padding-right: 3svw;
+    }
+
+    .sectionImg3 h1 {
+        font-size: 2svh; 
+        padding-top: 46svw;
+        padding-left: 10svw;
+    }
+}
