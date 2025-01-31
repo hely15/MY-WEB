@@ -31,6 +31,14 @@
     li{
         list-style: none;
     }
+
+    a{
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: var(--color-1);
+    }
 }
 
 
@@ -508,6 +516,7 @@ footer{
 
 .body__blog {
     background-color: var(--color-3);
+     
 }
 
 .header__blog {
@@ -531,12 +540,22 @@ footer{
 
 
     li{
+        z-index: 10;
         list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: var(--color-1);
     }
 }
 
 
 .header2__blog {
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -568,4 +587,5 @@ footer{
     li{
         list-style: none;
     }
+    
 }
