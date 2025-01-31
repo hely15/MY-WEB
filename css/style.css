@@ -560,32 +560,53 @@ footer{
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    padding-left: 343px;
+    padding-left: 10svw;
     padding-right: 20px;
     padding-top: 110px;
     width: 100%;
+
+    .divmenu2__blog{
+        img{
+            height: 10px;
+        }
+
+        .recuadro{
+            display: flex;
+            list-style: none;
+            background: var(--color-4);
+            width: 113px;
+            height: 28px;
+            font-family: "Montserrat-SemiBold";
+            font-size: 15px;
+
+
+        }
+    }
 }
-
-
-
 
 .ul__menu2__blog {
     display: flex;
     gap: 5.3svh;
-    padding-right: 159px;
+    padding-left: 25svw;
     font-size: 15px;
     font-family: "Montserrat-SemiBold";
     color: var(--color-1);
 
-    .recuadro{
-        display: flex;
-        background-color: var(--color-4);
-        padding-right: 1svh;
-        gap: 10px;
-    }
+
 
     li{
         list-style: none;
+        background: none;
+
     }
     
+}
+ 
+.section__img1 {
+
+
+    img{
+        padding-top: 208px;
+        padding-left: 26px
+    }
 }
