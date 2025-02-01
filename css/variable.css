@@ -3,20 +3,20 @@
     --color-2: #376e4072;
     --color-3:#071917; 
     --color-4: #145E2A;
-    --banner-1: url(storage/img/FondoPlaneta.jpg);
+    --banner-1: url(MY-WEB/storage/img/FondoPlaneta.jpg);
 }
 
 @font-face {
     font-family: "Montserrat-Medium";
-    src: url(storage/font/Montserrat-Medium.ttf);
+    src: url(MY-WEB/storage/font/Montserrat-Medium.ttf);
 }
 
 @font-face {
     font-family: "Montserrat-SemiBold";
-    src: url(storage/font/Montserrat-SemiBold.ttf);
+    src: url(MY-WEB/storage/font/Montserrat-SemiBold.ttf);
 }
 
 @font-face {
     font-family: "Montserrat-Light";
-    src: url(storage/font/Montserrat-Light.ttf);
+    src: url(MY-WEB/storage/font/Montserrat-Light.ttf);
 }
