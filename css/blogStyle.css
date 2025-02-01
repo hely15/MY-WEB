@@ -1,0 +1,155 @@
+@import url(variable.css);
+.body__blog {
+    background-color: var(--color-3);
+     
+}
+
+.header__blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    width: 97%;
+
+}
+
+.ul__menu__blog {
+    display: flex;
+    gap: 66px;
+    padding-right: 159px;
+    font-family: "Montserrat-SemiBold";
+    color: var(--color-1);
+
+
+    li{
+        z-index: 10;
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: var(--color-1);
+    }
+}
+
+
+.header2__blog {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding-left: 10svw;
+    padding-right: 20px;
+    padding-top: 110px;
+
+    .divmenu2__blog{
+        img{
+            height: 10px;
+        }
+
+        .recuadro{
+            display: flex;
+            list-style: none;
+            background: var(--color-4);
+            width: 113px;
+            height: 28px;
+            font-family: "Montserrat-SemiBold";
+            font-size: 15px;
+
+
+        }
+    }
+}
+
+.ul__menu2__blog {
+    display: flex;
+    gap: 5.3svh;
+    padding-left: 25svw;
+    font-size: 15px;
+    font-family: "Montserrat-SemiBold";
+    color: var(--color-1);
+
+
+
+    li{
+        list-style: none;
+        background: none;
+
+    }
+    
+}
+ 
+.section__img1 {
+
+
+    img{
+        padding-top: 208px;
+        padding-left: 26px;
+        width: 150vh;
+    }
+}
+
+@media (min-width: 1440px){
+    /* Add your responsive styles here */
+}
+
+
+.maintext{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 60svw;
+    top: 25svw;
+
+    .card {
+        background-color: rgba(20, 94, 42, 0.815);
+        border-radius: 15px;
+        padding: 20px 30px;
+        max-width: 500px;
+        color: white;
+        position: relative;
+        
+    }
+        
+    .card h2 {
+        font-family: "Montserrat-Light";
+        font-size: 28px;
+        margin: 0 0 10px;
+        font-weight: normal;
+        color: var(--color-1)
+    }
+    
+    .card h1 {
+        font-family: "Montserrat-SemiBold";
+        font-size: 28px;
+        margin: 10px 0;
+        line-height: 1.4;
+        padding-top: 2svw;
+    }
+    
+    .card p {
+        font-family: "Montserrat-Medium";
+        font-size: 25px;
+        line-height: 1.2;
+    }
+    
+    .card button {
+        font-family: "Montserrat-Light";
+        margin-top: 20px;
+        background-color: var(--color-1);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        font-size: 24px;
+        cursor: pointer;
+        margin-left: 9svw;
+    } 
+    
+}
