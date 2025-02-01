@@ -3,7 +3,7 @@
     --color-2: #376e4072;
     --color-3:#071917; 
     --color-4: #145E2A;
-    --banner-1: url(../storage/img/FondoPlaneta.jpg);
+    --banner-1: url(/storage/img/FondoPlaneta.jpg);
 }
 
 @font-face {
