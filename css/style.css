@@ -46,7 +46,7 @@
 
 
 .section__home {
-    background-image: linear-gradient(#376e4072, #071917d5), url("../storage/img/FondoPlaneta.jpg");
+    background-image: linear-gradient(#376e4072, #071917d5), url("storage/img/FondoPlaneta.jpg");
     background-image: linear-gradient(var(--color-2), var(--color-3)100%), var(--banner-1);
     background-size: cover;
     background-position: center ;
