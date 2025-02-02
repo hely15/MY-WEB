@@ -1,4 +1,4 @@
-@import url(variable.css);
+@import url('variable.css');
 .body__blog {
     background-color: var(--color-3);
      
